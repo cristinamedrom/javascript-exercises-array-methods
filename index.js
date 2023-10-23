@@ -170,6 +170,7 @@ function joinNames(names) {
 // =============================================================================
 function thereIsADog(animals) {
   // Aquí tu código
+  return animals.includes("Perro");
 }
 
 // =============================================================================
