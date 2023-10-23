@@ -62,6 +62,7 @@ function getInvertedSignArray(numbers) {
 // =============================================================================
 function getSum(numbers) {
   // Aquí tu código
+  return numbers.reduce((acumulador, element) => acumulador + element, 0);
 }
 
 // =============================================================================
