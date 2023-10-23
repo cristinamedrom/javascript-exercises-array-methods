@@ -179,6 +179,7 @@ function thereIsADog(animals) {
 // =============================================================================
 function reverseNumbers(numbers) {
   // Aquí tu código
+  return numbers.reverse();
 }
 
 // =============================================================================
