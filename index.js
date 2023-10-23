@@ -187,4 +187,6 @@ function reverseNumbers(numbers) {
 // =============================================================================
 function fromStringToArray(string) {
   // Aquí tu código
+  const separador = Array.from(string);
+  return separador;
 }
