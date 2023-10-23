@@ -141,6 +141,7 @@ function sortFromMinToMax(numbers) {
 // =============================================================================
 function thereAreEven(numbers) {
   // Aquí tu código
+  return numbers.some(elemento => elemento % 2 === 0);
 }
 
 // =============================================================================
