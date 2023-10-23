@@ -122,6 +122,8 @@ function getSumDogAges(people) {
 // =============================================================================
 function find100(numbers) {
   // Aquí tu código
+  const encontrar100 = numbers.find(elemento => elemento === 100);
+  return encontrar100;
 }
 
 // =============================================================================
