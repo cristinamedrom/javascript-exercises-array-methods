@@ -72,6 +72,8 @@ function getSum(numbers) {
 // =============================================================================
 function getAverage(numbers) {
   // Aquí tu código
+  const sumatorio = numbers.reduce((acumulador, element) => acumulador + element, 0);
+  return sumatorio/numbers.length;
 }
 
 // =============================================================================
