@@ -50,6 +50,10 @@ function getIncreasedArray(numbers) {
 // negativos se conviertan a positivos y si son positivos se conviertan a negativos.
 function getInvertedSignArray(numbers) {
   // Aquí tu código
+  const otroNuevoArray = numbers.map(function (element) {
+    return element * (-1);
+  })
+  return otroNuevoArray
 }
 
 // =============================================================================
