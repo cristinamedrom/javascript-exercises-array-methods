@@ -83,14 +83,13 @@ function getAverage(numbers) {
 function getRepetitions(array) {
   // Aquí tu código
   return array.reduce((acumulador, elemento) => {
-  if(acumulador[elemento]) {
-    acumulador[elemento]++;
-  } else {
-    acumulador[elemento] = 1;
-  }
-  return acumulador;
-}, {});
-   
+    if (acumulador[elemento]) {
+      acumulador[elemento]++;
+    } else {
+      acumulador[elemento] = 1;
+    }
+    return acumulador;
+  }, {});
 }
 
 // =============================================================================
@@ -101,6 +100,8 @@ function getRepetitions(array) {
 // =============================================================================
 function getSumAges(people) {
   // Aquí tu código
+  const sumaEdades = people.reduce((acc, person) => acc + person.age, 0);
+  return sumaEdades;
 }
 
 // =============================================================================
