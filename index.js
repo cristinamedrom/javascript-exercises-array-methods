@@ -39,6 +39,10 @@ function getStreamersLOL(streamers) {
 // =============================================================================
 function getIncreasedArray(numbers) {
   // Aquí tu código
+  const nuevoArray = numbers.map(function (element) {
+    return element + 10;
+  })
+  return nuevoArray
 }
 
 // =============================================================================
