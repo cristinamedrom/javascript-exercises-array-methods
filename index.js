@@ -112,6 +112,9 @@ function getSumAges(people) {
 // =============================================================================
 function getSumDogAges(people) {
   // Aquí tu código
+  const gentePerros = people.filter((gente) => gente.hasDog === true);
+  const sumaPerros = gentePerros.reduce((acumulador, gente) => acumulador + gente.age, 0);
+  return sumaPerros;
 }
 
 // =============================================================================
